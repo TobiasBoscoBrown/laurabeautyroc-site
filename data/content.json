@@ -1,0 +1,122 @@
+{
+  "site": {
+    "brand": "YOUR NAME",
+    "title": "Your Name | What You Do",
+    "description": "A short one-line description of who you are and what you offer. Edit this anytime from the admin panel.",
+    "domain": "yoursite.com",
+    "email": "you@example.com"
+  },
+  "social": {
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "snapchat": "",
+    "shopmy": "",
+    "cashapp": "",
+    "venmo": "",
+    "paypal": "",
+    "wishlist": ""
+  },
+  "stats": [
+    { "n": "5+", "l": "YEARS DOING THIS" },
+    { "n": "100+", "l": "HAPPY CLIENTS" },
+    { "n": "24h", "l": "REPLY TIME" },
+    { "n": "1", "l": "CITY" }
+  ],
+  "marquee": ["Quality", "On Time", "Friendly", "Local", "Trusted", "Booking Now"],
+  "home": {
+    "kicker": "YOUR CITY",
+    "h1line1": "YOUR",
+    "h1line2": "NAME",
+    "sub_bold": "What you do, in one strong line.",
+    "sub_rest": "A second line that adds the warm detail and tells people why to pick you.",
+    "portrait": "/assets/headshot.jpg",
+    "portraitTag": "HELLO",
+    "portraitTagSub": "NICE TO MEET YOU",
+    "primaryCtaLabel": "Get In Touch",
+    "ghostCtaLabel": "See My Work",
+    "workEyebrow": "WHAT I DO",
+    "workTitle": "HOW I CAN HELP",
+    "blocks": []
+  },
+  "pages": {
+    "modeling": {
+      "nav": "Work",
+      "eyebrow": "WHAT I OFFER",
+      "title": "WORK",
+      "intro": "Describe your main service or offering here. What it is, who it is for, and why you are good at it. Edit all of this from the admin panel.",
+      "videoId": "",
+      "videoCaption": "",
+      "gallery": [
+        { "src": "/media/work_1.jpg", "alt": "Sample of your work", "caption": "SAMPLE ONE" },
+        { "src": "/media/work_2.jpg", "alt": "Sample of your work", "caption": "SAMPLE TWO" },
+        { "src": "/media/work_3.jpg", "alt": "Sample of your work", "caption": "SAMPLE THREE" }
+      ],
+      "ctaLabel": "WORK WITH ME",
+      "blocks": []
+    },
+    "acting": {
+      "nav": "Press",
+      "eyebrow": "FEATURED",
+      "title": "PRESS",
+      "intro": "Use this page for press, testimonials, or a second service. Replace this text with your own from the admin panel.",
+      "videoId": "",
+      "videoCaption": "",
+      "gallery": [
+        { "src": "/media/press_1.jpg", "alt": "Press or testimonial", "caption": "FEATURE ONE" },
+        { "src": "/media/press_2.jpg", "alt": "Press or testimonial", "caption": "FEATURE TWO" },
+        { "src": "/media/press_3.jpg", "alt": "Press or testimonial", "caption": "FEATURE THREE" }
+      ],
+      "ctaLabel": "SEE MORE",
+      "blocks": []
+    },
+    "content-creation": {
+      "nav": "Connect",
+      "eyebrow": "ONLINE",
+      "title": "CONNECT",
+      "intro": "Point people to your channels, content, or a third offering. Edit this freely from the admin panel.",
+      "videoId": "",
+      "videoCaption": "",
+      "gallery": [
+        { "src": "/media/social_1.jpg", "alt": "Your channel", "caption": "CHANNEL ONE" },
+        { "src": "/media/social_2.jpg", "alt": "Your channel", "caption": "CHANNEL TWO" },
+        { "src": "/media/social_3.jpg", "alt": "Your channel", "caption": "CHANNEL THREE" }
+      ],
+      "ctaLabel": "FOLLOW ALONG",
+      "blocks": []
+    },
+    "about": {
+      "nav": "About",
+      "eyebrow": "THE STORY",
+      "title": "ABOUT ME",
+      "heroImage": "/media/about_hero.jpg",
+      "big": "A short|punchy|tagline.",
+      "paragraphs": [
+        "Write your story here. Who you are, what you do, and what you care about. This is the place to sound like a real person.",
+        "Add a second paragraph with a clear invitation: who you want to hear from and how to reach you. Edit all of this from the admin panel."
+      ],
+      "pills": ["FRIENDLY", "RELIABLE", "LOCAL", "EXPERIENCED"],
+      "videoId": "",
+      "videoCaption": "",
+      "guide": {
+        "eyebrow": "OPTIONAL OFFER",
+        "title": "YOUR OFFER",
+        "body": "Use this space for a product, guide, or lead magnet. Or hide it from the admin panel if you do not need it.",
+        "image": "/assets/guide.jpg",
+        "ctaLabel": "LEARN MORE",
+        "ctaHref": ""
+      },
+      "partner": { "code": "", "text_pre": "", "text_rest": "", "ctaLabel": "", "ctaHref": "" },
+      "blocks": []
+    },
+    "contact": {
+      "nav": "Contact",
+      "eyebrow": "GET IN TOUCH",
+      "title": "Let's talk",
+      "intro": "Tell people the best way to reach you. Email, DMs, or a quick form. Edit this from the admin panel.",
+      "connectEyebrow": "Find Me",
+      "blocks": []
+    }
+  },
+  "promoLinks": []
+}
