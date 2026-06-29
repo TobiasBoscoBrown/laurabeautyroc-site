@@ -16,7 +16,7 @@ export async function generateMetadata() {
       images: ['/assets/headshot.jpg'],
     },
     twitter: { card: 'summary_large_image' },
-    icons: { icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23161412'/><text x='50' y='72' font-size='64' font-family='Arial' font-weight='900' fill='%2340a3c9' text-anchor='middle'>B</text></svg>" },
+    icons: { icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23f6efe7'/><text x='50' y='72' font-size='64' font-family='Georgia,serif' font-weight='700' fill='%239a6256' text-anchor='middle'>L</text></svg>" },
   };
 }
 
@@ -27,7 +27,7 @@ export default async function RootLayout({ children }) {
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
       </head>
       <body>
         <Nav brand={c.site.brand} email={c.site.email} pages={c.pages} />

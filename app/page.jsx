@@ -28,7 +28,7 @@ export default async function Home() {
               <h1 className="display"><Edit as="span" path="home.h1line1">{h.h1line1}</Edit><Edit as="span" className="line2" path="home.h1line2">{h.h1line2}</Edit></h1>
               <p className="hero-sub"><b><Edit path="home.sub_bold">{h.sub_bold}</Edit></b> <Edit path="home.sub_rest">{h.sub_rest}</Edit></p>
               <div className="hero-actions">
-                <EmailButton email={c.site.email} subject="Collab / Booking Inquiry" className="btn btn-primary" label={`${h.primaryCtaLabel} →`} />
+                <a href={c.social.instagram} target="_blank" rel="noopener" className="btn btn-primary">{h.primaryCtaLabel} →</a>
                 <a href={c.social.instagram} target="_blank" rel="noopener" className="btn btn-ghost">{h.ghostCtaLabel}</a>
               </div>
             </div>
@@ -84,12 +84,12 @@ export default async function Home() {
 
       <section className="book">
         <div className="wrap">
-          <div className="eyebrow">Always Open</div>
-          <h2 className="display">Let's <span className="accent">collab</span></h2>
-          <p>Brand deals, bookings, shoots or something new. Slide into the DMs or send an email and let's make it.</p>
+          <div className="eyebrow">Booking Now</div>
+          <h2 className="display">Let's <span className="accent">talk</span></h2>
+          <p>Weddings and special events fill up fast. Send me your date and the look you have in mind, and we will plan your day together.</p>
           <div className="hero-actions" style={{ justifyContent: 'center' }}>
-            <EmailButton email={c.site.email} subject="Collab / Booking Inquiry" className="btn btn-primary" label={c.site.email} />
-            <a href={c.social.instagram} target="_blank" rel="noopener" className="btn btn-ghost">DM on Instagram</a>
+            <a href={c.social.instagram} target="_blank" rel="noopener" className="btn btn-primary">Message me on Instagram</a>
+            <Link href="/contact" className="btn btn-ghost">Book Me</Link>
           </div>
         </div>
       </section>

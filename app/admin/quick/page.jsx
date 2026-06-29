@@ -67,7 +67,7 @@ export default function Quick() {
     <div className="q">
       <style>{CSS}</style>
       <div className="qbar">
-        <div className="qbrand">BEN<span>.</span>DAVIS <small>quick edits</small></div>
+        <div className="qbrand">LAURA<span>.</span>TRAPP <small>quick edits</small></div>
         <div className="qactions">
           <a className="qbtn ghost" href="/">Back to site</a>
           {status === 'in' && <button className="qbtn save" disabled={busy || !dirty} onClick={save}>{busy ? 'Saving...' : dirty ? 'Save' : 'Saved'}</button>}
@@ -127,12 +127,12 @@ export default function Quick() {
 }
 
 const CSS = `
-.q{--cream:#efe9dd;--ink:#15130f;--ink-soft:#3b3730;--blue:#3a9fc7;--blue-deep:#2b85ab;--line:rgba(21,19,15,.16);background:var(--cream);color:var(--ink);min-height:100vh;font-family:'Archivo',system-ui,sans-serif}
+.q{--cream:#f6efe7;--ink:#2b2320;--ink-soft:#6f5f57;--blue:#b9847a;--blue-deep:#9a6256;--line:rgba(43,35,32,.16);background:var(--cream);color:var(--ink);min-height:100vh;font-family:'Jost',system-ui,sans-serif}
 .q *{box-sizing:border-box}
 .qbar{position:sticky;top:0;z-index:10;background:rgba(239,233,221,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:13px 22px;gap:10px}
-.qbrand{font-family:'Anton',sans-serif;font-size:22px;letter-spacing:.04em;white-space:nowrap}
+.qbrand{font-family:'Cormorant Garamond',sans-serif;font-size:22px;letter-spacing:.04em;white-space:nowrap}
 .qbrand span{color:var(--blue)}
-.qbrand small{font-family:'Archivo';font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);margin-left:8px}
+.qbrand small{font-family:'Jost';font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);margin-left:8px}
 .qactions{display:flex;gap:8px}
 .qbtn{border:1.5px solid var(--ink);background:transparent;color:var(--ink);border-radius:100px;padding:9px 18px;font-weight:700;font-size:13px;cursor:pointer;text-decoration:none;white-space:nowrap}
 .qbtn.ghost:hover{background:var(--ink);color:var(--cream)}
@@ -142,10 +142,10 @@ const CSS = `
 .qcenter{min-height:70vh;display:flex;align-items:center;justify-content:center;padding:24px}
 .qcard{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin:16px 0;box-shadow:0 24px 50px -34px rgba(21,19,15,.4)}
 .qcard h2{font-size:22px;margin-bottom:6px}
-.qcard h3{font-family:'Anton',sans-serif;font-size:19px;text-transform:uppercase;letter-spacing:.02em;margin-bottom:14px}
+.qcard h3{font-family:'Cormorant Garamond',sans-serif;font-size:19px;text-transform:uppercase;letter-spacing:.02em;margin-bottom:14px}
 .qwrap{max-width:680px;margin:0 auto;padding:10px 20px 70px}
 .qintro{margin:26px 0 4px}
-.qintro h1{font-family:'Anton',sans-serif;font-size:34px;text-transform:uppercase}
+.qintro h1{font-family:'Cormorant Garamond',sans-serif;font-size:34px;text-transform:uppercase}
 .qintro p{color:var(--ink-soft);font-size:15px;margin-top:8px}
 .qfield{margin:14px 0}
 .qfield label{display:block;font-size:13px;font-weight:800;letter-spacing:.04em;margin-bottom:6px}

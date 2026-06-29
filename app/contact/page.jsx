@@ -15,13 +15,8 @@ export default async function Contact() {
   const s = c.social;
   const links = [
     { label: 'Instagram', href: s.instagram }, { label: 'TikTok', href: s.tiktok },
-    { label: 'YouTube', href: s.youtube }, { label: 'Snapchat', href: s.snapchat },
-    { label: 'ShopMy', href: s.shopmy }, { label: 'Email', href: `mailto:${c.site.email}` },
-  ];
-  const support = [
-    { label: 'Cash App', href: s.cashapp }, { label: 'Venmo', href: s.venmo },
-    { label: 'PayPal', href: s.paypal }, { label: 'Wishlist', href: s.wishlist },
-  ];
+    { label: 'YouTube', href: s.youtube },
+  ].filter(l => l.href);
   return (
     <>
       <section className="block page-head">
@@ -30,8 +25,7 @@ export default async function Contact() {
           <h1 className="display"><Edit path="pages.contact.title">{p.title}</Edit></h1>
           <p className="lead"><Edit path="pages.contact.intro">{p.intro}</Edit></p>
           <div className="hero-actions" style={{ marginTop: 30 }}>
-            <EmailButton email={c.site.email} subject="Collab / Booking Inquiry" className="btn btn-primary" label={c.site.email} />
-            <a href={s.instagram} target="_blank" rel="noopener" className="btn btn-ghost">DM on Instagram</a>
+            <a href={s.instagram} target="_blank" rel="noopener" className="btn btn-primary">Message me on Instagram</a>
           </div>
         </div>
       </section>
@@ -49,10 +43,7 @@ export default async function Contact() {
               </Reveal>
             ))}
           </div>
-          <div className="support">
-            <span className="slab">Support / Tips</span>
-            {support.map((l, i) => (<a key={i} href={l.href} target="_blank" rel="noopener">{l.label}</a>))}
-          </div>
+
         </div>
       </section>
 

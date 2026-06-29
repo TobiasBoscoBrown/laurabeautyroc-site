@@ -1,7 +1,7 @@
 import ZoomImg from './ZoomImg';
 import Edit from './Edit';
 export default function GuideFeature({ guide }) {
-  if (!guide) return null;
+  if (!guide || !guide.ctaHref) return null;
   return (
     <section className="block" style={{ paddingTop: 0 }}>
       <div className="wrap">
