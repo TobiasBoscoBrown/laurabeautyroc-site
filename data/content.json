@@ -3,7 +3,7 @@
     "brand": "Laura Trapp",
     "title": "Laura Trapp | Traveling Bridal Hair",
     "description": "On-location bridal hair for weddings and special events. I come to you, so you can get ready in comfort on your big day.",
-    "domain": "",
+    "domain": "laurabeautyroc-site.vercel.app",
     "email": ""
   },
   "social": {
@@ -18,12 +18,31 @@
     "wishlist": ""
   },
   "stats": [
-    { "n": "Bridal", "l": "HAIR SPECIALIST" },
-    { "n": "On-Site", "l": "I COME TO YOU" },
-    { "n": "Weddings", "l": "& SPECIAL EVENTS" },
-    { "n": "DM", "l": "TO BOOK A DATE" }
+    {
+      "n": "Bridal",
+      "l": "HAIR SPECIALIST"
+    },
+    {
+      "n": "On-Site",
+      "l": "I COME TO YOU"
+    },
+    {
+      "n": "Weddings",
+      "l": "& SPECIAL EVENTS"
+    },
+    {
+      "n": "DM",
+      "l": "TO BOOK A DATE"
+    }
   ],
-  "marquee": ["Bridal Hair", "On Location", "Weddings", "Updos", "Trials", "Booking Now"],
+  "marquee": [
+    "Bridal Hair",
+    "On Location",
+    "Weddings",
+    "Updos",
+    "Trials",
+    "Booking Now"
+  ],
   "home": {
     "kicker": "TRAVELING BRIDAL HAIR",
     "h1line1": "LAURA",
@@ -48,9 +67,21 @@
       "videoId": "",
       "videoCaption": "",
       "gallery": [
-        { "src": "/media/work_1.jpg", "alt": "Bridal hair look", "caption": "BRIDAL LOOKS" },
-        { "src": "/media/work_2.jpg", "alt": "Updo style", "caption": "UPDOS" },
-        { "src": "/media/work_3.jpg", "alt": "Bridal party hair", "caption": "THE WHOLE PARTY" }
+        {
+          "src": "/media/work_1.jpg",
+          "alt": "Bridal hair look",
+          "caption": "BRIDAL LOOKS"
+        },
+        {
+          "src": "/media/work_2.jpg",
+          "alt": "Updo style",
+          "caption": "UPDOS"
+        },
+        {
+          "src": "/media/work_3.jpg",
+          "alt": "Bridal party hair",
+          "caption": "THE WHOLE PARTY"
+        }
       ],
       "ctaLabel": "BOOK YOUR DATE",
       "blocks": []
@@ -63,9 +94,21 @@
       "videoId": "",
       "videoCaption": "",
       "gallery": [
-        { "src": "/media/press_1.jpg", "alt": "Bridal hair photo", "caption": "ADD A PHOTO" },
-        { "src": "/media/press_2.jpg", "alt": "Bridal hair photo", "caption": "ADD A PHOTO" },
-        { "src": "/media/press_3.jpg", "alt": "Bridal hair photo", "caption": "ADD A PHOTO" }
+        {
+          "src": "/media/press_1.jpg",
+          "alt": "Bridal hair photo",
+          "caption": "ADD A PHOTO"
+        },
+        {
+          "src": "/media/press_2.jpg",
+          "alt": "Bridal hair photo",
+          "caption": "ADD A PHOTO"
+        },
+        {
+          "src": "/media/press_3.jpg",
+          "alt": "Bridal hair photo",
+          "caption": "ADD A PHOTO"
+        }
       ],
       "ctaLabel": "BOOK A TRIAL",
       "blocks": []
@@ -78,9 +121,21 @@
       "videoId": "",
       "videoCaption": "",
       "gallery": [
-        { "src": "/media/social_1.jpg", "alt": "Instagram post", "caption": "@LAURABEAUTYROC" },
-        { "src": "/media/social_2.jpg", "alt": "Instagram post", "caption": "RECENT WORK" },
-        { "src": "/media/social_3.jpg", "alt": "Instagram post", "caption": "BEHIND THE SCENES" }
+        {
+          "src": "/media/social_1.jpg",
+          "alt": "Instagram post",
+          "caption": "@LAURABEAUTYROC"
+        },
+        {
+          "src": "/media/social_2.jpg",
+          "alt": "Instagram post",
+          "caption": "RECENT WORK"
+        },
+        {
+          "src": "/media/social_3.jpg",
+          "alt": "Instagram post",
+          "caption": "BEHIND THE SCENES"
+        }
       ],
       "ctaLabel": "FOLLOW ON INSTAGRAM",
       "blocks": []
@@ -95,7 +150,12 @@
         "Hi, I am Laura. I do traveling bridal hair, which means I come to you on your wedding or event day. No rushing across town in your gown. You get ready right where you are, and I take care of the hair.",
         "I would love to hear about your day. Send me a DM on Instagram with your date and what you have in mind, and we can start planning. You can edit this whole story from the admin panel and make it sound like you."
       ],
-      "pills": ["BRIDAL", "ON LOCATION", "WEDDINGS", "EVENTS"],
+      "pills": [
+        "BRIDAL",
+        "ON LOCATION",
+        "WEDDINGS",
+        "EVENTS"
+      ],
       "videoId": "",
       "videoCaption": "",
       "guide": {
@@ -106,7 +166,13 @@
         "ctaLabel": "LEARN MORE",
         "ctaHref": ""
       },
-      "partner": { "code": "", "text_pre": "", "text_rest": "", "ctaLabel": "", "ctaHref": "" },
+      "partner": {
+        "code": "",
+        "text_pre": "",
+        "text_rest": "",
+        "ctaLabel": "",
+        "ctaHref": ""
+      },
       "blocks": []
     },
     "contact": {
