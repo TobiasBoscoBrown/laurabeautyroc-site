@@ -1,13 +1,13 @@
 {
   "site": {
-    "brand": "YOUR NAME",
-    "title": "Your Name | What You Do",
-    "description": "A short one-line description of who you are and what you offer. Edit this anytime from the admin panel.",
-    "domain": "yoursite.com",
-    "email": "you@example.com"
+    "brand": "Laura Trapp",
+    "title": "Laura Trapp | Traveling Bridal Hair",
+    "description": "On-location bridal hair for weddings and special events. I come to you, so you can get ready in comfort on your big day.",
+    "domain": "",
+    "email": ""
   },
   "social": {
-    "instagram": "",
+    "instagram": "https://instagram.com/laurabeautyroc",
     "tiktok": "",
     "youtube": "",
     "snapchat": "",
@@ -18,90 +18,90 @@
     "wishlist": ""
   },
   "stats": [
-    { "n": "5+", "l": "YEARS DOING THIS" },
-    { "n": "100+", "l": "HAPPY CLIENTS" },
-    { "n": "24h", "l": "REPLY TIME" },
-    { "n": "1", "l": "CITY" }
+    { "n": "Bridal", "l": "HAIR SPECIALIST" },
+    { "n": "On-Site", "l": "I COME TO YOU" },
+    { "n": "Weddings", "l": "& SPECIAL EVENTS" },
+    { "n": "DM", "l": "TO BOOK A DATE" }
   ],
-  "marquee": ["Quality", "On Time", "Friendly", "Local", "Trusted", "Booking Now"],
+  "marquee": ["Bridal Hair", "On Location", "Weddings", "Updos", "Trials", "Booking Now"],
   "home": {
-    "kicker": "YOUR CITY",
-    "h1line1": "YOUR",
-    "h1line2": "NAME",
-    "sub_bold": "What you do, in one strong line.",
-    "sub_rest": "A second line that adds the warm detail and tells people why to pick you.",
+    "kicker": "TRAVELING BRIDAL HAIR",
+    "h1line1": "LAURA",
+    "h1line2": "TRAPP",
+    "sub_bold": "Bridal hair that comes to you.",
+    "sub_rest": "I style brides and their parties on location, so the morning of your wedding stays calm, easy, and all about you.",
     "portrait": "/assets/headshot.jpg",
     "portraitTag": "HELLO",
-    "portraitTagSub": "NICE TO MEET YOU",
-    "primaryCtaLabel": "Get In Touch",
-    "ghostCtaLabel": "See My Work",
+    "portraitTagSub": "LET'S TALK HAIR",
+    "primaryCtaLabel": "Book Your Date",
+    "ghostCtaLabel": "See The Looks",
     "workEyebrow": "WHAT I DO",
     "workTitle": "HOW I CAN HELP",
     "blocks": []
   },
   "pages": {
     "modeling": {
-      "nav": "Work",
+      "nav": "Services",
       "eyebrow": "WHAT I OFFER",
-      "title": "WORK",
-      "intro": "Describe your main service or offering here. What it is, who it is for, and why you are good at it. Edit all of this from the admin panel.",
+      "title": "BRIDAL HAIR",
+      "intro": "I am a traveling bridal hairstylist. I come to you and style hair for weddings and special events, from the bride to the whole party. Soft waves, classic updos, half-up looks, and everything in between. Tell me about your day and I will help you plan the right look.",
       "videoId": "",
       "videoCaption": "",
       "gallery": [
-        { "src": "/media/work_1.jpg", "alt": "Sample of your work", "caption": "SAMPLE ONE" },
-        { "src": "/media/work_2.jpg", "alt": "Sample of your work", "caption": "SAMPLE TWO" },
-        { "src": "/media/work_3.jpg", "alt": "Sample of your work", "caption": "SAMPLE THREE" }
+        { "src": "/media/work_1.jpg", "alt": "Bridal hair look", "caption": "BRIDAL LOOKS" },
+        { "src": "/media/work_2.jpg", "alt": "Updo style", "caption": "UPDOS" },
+        { "src": "/media/work_3.jpg", "alt": "Bridal party hair", "caption": "THE WHOLE PARTY" }
       ],
-      "ctaLabel": "WORK WITH ME",
+      "ctaLabel": "BOOK YOUR DATE",
       "blocks": []
     },
     "acting": {
-      "nav": "Press",
-      "eyebrow": "FEATURED",
-      "title": "PRESS",
-      "intro": "Use this page for press, testimonials, or a second service. Replace this text with your own from the admin panel.",
+      "nav": "Looks",
+      "eyebrow": "GALLERY",
+      "title": "THE LOOKS",
+      "intro": "A place to show your favorite bridal looks. Swap in your own photos from the admin panel so brides can see your style before they book.",
       "videoId": "",
       "videoCaption": "",
       "gallery": [
-        { "src": "/media/press_1.jpg", "alt": "Press or testimonial", "caption": "FEATURE ONE" },
-        { "src": "/media/press_2.jpg", "alt": "Press or testimonial", "caption": "FEATURE TWO" },
-        { "src": "/media/press_3.jpg", "alt": "Press or testimonial", "caption": "FEATURE THREE" }
+        { "src": "/media/press_1.jpg", "alt": "Bridal hair photo", "caption": "ADD A PHOTO" },
+        { "src": "/media/press_2.jpg", "alt": "Bridal hair photo", "caption": "ADD A PHOTO" },
+        { "src": "/media/press_3.jpg", "alt": "Bridal hair photo", "caption": "ADD A PHOTO" }
       ],
-      "ctaLabel": "SEE MORE",
+      "ctaLabel": "BOOK A TRIAL",
       "blocks": []
     },
     "content-creation": {
-      "nav": "Connect",
+      "nav": "Instagram",
       "eyebrow": "ONLINE",
-      "title": "CONNECT",
-      "intro": "Point people to your channels, content, or a third offering. Edit this freely from the admin panel.",
+      "title": "FOLLOW ALONG",
+      "intro": "See recent work and behind the scenes on Instagram. It is the fastest way to reach me, so send a DM and we can talk about your date.",
       "videoId": "",
       "videoCaption": "",
       "gallery": [
-        { "src": "/media/social_1.jpg", "alt": "Your channel", "caption": "CHANNEL ONE" },
-        { "src": "/media/social_2.jpg", "alt": "Your channel", "caption": "CHANNEL TWO" },
-        { "src": "/media/social_3.jpg", "alt": "Your channel", "caption": "CHANNEL THREE" }
+        { "src": "/media/social_1.jpg", "alt": "Instagram post", "caption": "@LAURABEAUTYROC" },
+        { "src": "/media/social_2.jpg", "alt": "Instagram post", "caption": "RECENT WORK" },
+        { "src": "/media/social_3.jpg", "alt": "Instagram post", "caption": "BEHIND THE SCENES" }
       ],
-      "ctaLabel": "FOLLOW ALONG",
+      "ctaLabel": "FOLLOW ON INSTAGRAM",
       "blocks": []
     },
     "about": {
       "nav": "About",
       "eyebrow": "THE STORY",
-      "title": "ABOUT ME",
+      "title": "ABOUT LAURA",
       "heroImage": "/media/about_hero.jpg",
-      "big": "A short|punchy|tagline.",
+      "big": "Bridal hair|that comes|to you.",
       "paragraphs": [
-        "Write your story here. Who you are, what you do, and what you care about. This is the place to sound like a real person.",
-        "Add a second paragraph with a clear invitation: who you want to hear from and how to reach you. Edit all of this from the admin panel."
+        "Hi, I am Laura. I do traveling bridal hair, which means I come to you on your wedding or event day. No rushing across town in your gown. You get ready right where you are, and I take care of the hair.",
+        "I would love to hear about your day. Send me a DM on Instagram with your date and what you have in mind, and we can start planning. You can edit this whole story from the admin panel and make it sound like you."
       ],
-      "pills": ["FRIENDLY", "RELIABLE", "LOCAL", "EXPERIENCED"],
+      "pills": ["BRIDAL", "ON LOCATION", "WEDDINGS", "EVENTS"],
       "videoId": "",
       "videoCaption": "",
       "guide": {
         "eyebrow": "OPTIONAL OFFER",
         "title": "YOUR OFFER",
-        "body": "Use this space for a product, guide, or lead magnet. Or hide it from the admin panel if you do not need it.",
+        "body": "Use this space for a price list, a bridal package, or a booking form. Or hide it from the admin panel if you do not need it.",
         "image": "/assets/guide.jpg",
         "ctaLabel": "LEARN MORE",
         "ctaHref": ""
@@ -112,8 +112,8 @@
     "contact": {
       "nav": "Contact",
       "eyebrow": "GET IN TOUCH",
-      "title": "Let's talk",
-      "intro": "Tell people the best way to reach you. Email, DMs, or a quick form. Edit this from the admin panel.",
+      "title": "Let's talk about your day",
+      "intro": "The best way to reach me is a DM on Instagram. Send your wedding or event date and a little about the look you want, and I will get back to you.",
       "connectEyebrow": "Find Me",
       "blocks": []
     }
